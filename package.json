@@ -1,0 +1,48 @@
+{
+  "name": "webpack4-with-sass",
+  "version": "0.0.1",
+  "description": "Webpack 4 project with configuration to loader sass files and Nice theme",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "dev": "webpack --mode development --module-bind js=babel-loader",
+    "build": "webpack --mode production --module-bind js=babel-loader",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack4",
+    "sass",
+    "react",
+    "bootstrap4"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "less-vars-to-js": "^1.3.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.11.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "chartist": "^0.11.0",
+    "chartist-plugin-tooltip": "0.0.11",
+    "jquery": "^3.3.1"
+  }
+}
